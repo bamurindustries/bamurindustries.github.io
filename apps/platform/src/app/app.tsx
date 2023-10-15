@@ -1,15 +1,21 @@
 import { Core } from '@bamur/core';
-import NxWelcome from './nx-welcome';
+import Footer from '../components/footer/footer';
+import Header from '../components/header/header';
+import Main from '../components/main/main';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
 
 export function App() {
   return (
     <>
-    <Core></Core>
+    <Header></Header>
+    <main>
+      <Main></Main>
     <div>
-      <NxWelcome title="platform" />
+    <Core></Core>
     </div>
+    </main>
+    <Footer></Footer>
     </>
   );
 }
