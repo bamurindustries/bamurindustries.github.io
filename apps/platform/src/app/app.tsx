@@ -1,7 +1,7 @@
 import { Core } from '@bamur/core';
-import Footer from '../components/footer/footer';
-import Header from '../components/header/header';
-import Main from '../components/main/main';
+import Footer from './components/footer/footer';
+import Header from './components/header/header';
+import Main from './components/main/main';
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.scss';
 

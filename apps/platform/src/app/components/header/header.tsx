@@ -5,9 +5,9 @@ export interface HeaderProps {}
 
 export function Header(props: HeaderProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Header!</h1>
-    </div>
+    <header className={styles['container']}>
+      <span className={styles['logo']}>BEPL</span>
+    </header>
   );
 }
 
