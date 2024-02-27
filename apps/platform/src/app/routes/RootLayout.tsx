@@ -6,7 +6,7 @@ function RootLayout() {
   return (
     <>
       <Header />
-      <main className='p-3'>
+      <main >
       <Outlet />
       </main>
     <Footer />

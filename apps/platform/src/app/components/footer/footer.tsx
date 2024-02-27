@@ -6,7 +6,7 @@ export interface FooterProps {}
 export function Footer(props: FooterProps) {
   return (
     <footer className="bg-gray-800 text-white py-6 mt-auto">
-      <div className="container mx-auto px-4">
+      <div className="mx-auto px-4">
         <div className="flex justify-between items-center">
           <div>
             <p className="font-bold">

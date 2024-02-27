@@ -14,12 +14,12 @@ interface ImageCarouselProps extends Partial<CarouselProps> {
   images: Image[];
 }
 
-export const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, ...props }) => {
+export const ImageCarousel: React.FC<ImageCarouselProps> = ({ images, className, ...props }) => {
   return (
-    <Carousel  {...props} className="h-fit">
+    <Carousel  {...props} className={className ?? undefined} >
       {images.map((image) => (
         <div key={image.url}>
-          <img src={image.url} alt={image.alt} />
+          <img src={image.url} alt={image.alt} loading="lazy"  />
           <p className="legend">{image.legend}</p>
         </div>
       ))}

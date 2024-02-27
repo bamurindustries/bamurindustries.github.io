@@ -12,7 +12,8 @@
     "react-dom": "18.2.0",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "6.11.2",
-    "tslib": "^2.3.0"
+    "tslib": "^2.3.0",
+    "typeface-roboto": "^1.1.13"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",

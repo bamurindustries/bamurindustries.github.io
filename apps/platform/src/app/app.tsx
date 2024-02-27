@@ -1,3 +1,5 @@
+import 'typeface-roboto';
+
 import { Core } from '@bamur/core';
 import Footer from './components/footer/footer';
 import Header from './components/header/header';
