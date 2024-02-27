@@ -18,3 +18,15 @@ html {
   outline: 0;
   vertical-align: baseline;
 }
+
+.loader {
+  position: relative;
+  background: rgba(0, 0, 0, 0) linear-gradient(328deg, #fafafa 0%, #e0e0e0 100%) 0% 0% no-repeat;
+  overflow: hidden;
+  &img{
+    min-height: 400px;
+  }
+  *{
+    visibility: hidden;
+  }
+}
