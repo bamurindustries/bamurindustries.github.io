@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-import logo from '../../../assets/bamur.png'; // import your logo
+import logo from "../../../assets/bamur.png";  // import your logo
 
 const Header: React.FC = () => {
   return (
