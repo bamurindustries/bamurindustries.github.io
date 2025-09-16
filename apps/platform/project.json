@@ -15,7 +15,13 @@
         "baseHref": "/",
         "main": "apps/platform/src/main.ts",
         "tsConfig": "apps/platform/tsconfig.app.json",
-        "assets": ["apps/platform/src/favicon.ico","apps/platform/src/404.html", "apps/platform/src/assets", "apps/platform/src/CNAME", "apps/platform/src/robots.txt"],
+        "assets": [
+          "apps/platform/src/favicon.ico",
+          "apps/platform/src/404.html",
+          "apps/platform/src/assets",
+          "apps/platform/src/CNAME",
+          "apps/platform/src/robots.txt"
+        ],
         "styles": ["apps/platform/src/styles.scss"],
         "scripts": [],
         "isolatedConfig": true,
@@ -37,7 +43,7 @@
             }
           ],
           "optimization": true,
-          "outputHashing": "all",
+          "outputHashing": "bundles",
           "sourceMap": false,
           "namedChunks": false,
           "extractLicenses": true,
