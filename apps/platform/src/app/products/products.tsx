@@ -1,10 +1,7 @@
 import {
   E_BIKE_IMAGES,
   E_CYCLE_IMAGES,
-  E_RIKSHA_IMAGES,
 } from '../components/main/homepage.data';
-
-import { Link } from 'react-router-dom';
 
 const products = [
   {
@@ -12,7 +9,10 @@ const products = [
     name: 'E-Riksha',
     description:
       'Our E-Rikshas are designed for comfort and efficiency, providing a green alternative for urban transportation.',
-    image: E_RIKSHA_IMAGES[0],
+    image: {
+      url: 'assets/e-riksha-3.png',
+      alt: 'E-Riksha 1',
+    },
   },
   {
     id: 2,

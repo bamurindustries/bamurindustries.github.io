@@ -4,7 +4,6 @@ export const E_BIKE_IMAGES: Image[] = [
   {
     url: 'assets/e-bike-1.png',
     alt: 'E-Bike 1',
-    legend: 'E-Bike 1',
   },
 ];
 
@@ -16,85 +15,177 @@ export const E_CYCLE_IMAGES: Image[] = [
   },
 ];
 
-export const E_RIKSHA_IMAGES: Image[] = [
+export const PRODUCTS_CONFIG = [
   {
-    url: 'assets/e-riksha-1.jpg',
-    alt: 'E-Riksha 1',
-    legend: 'E-Riksha 1',
+    name: 'Bamur B-7 E-Rickshaw: Sky Blue',
+    images: [
+      {
+        url: 'assets/e-riksha-3.png',
+        alt: 'E-Riksha 1',
+      },
+      {
+        url: 'assets/e-riksha-2.png',
+        alt: 'E-Riksha 2',
+      },
+      {
+        url: 'assets/e-riksha-1.png',
+        alt: 'E-Riksha 3',
+      },
+    ],
+    specs: [
+      { key: 'Motor', value: '1000W, 1200W, 1500W BLDC' },
+      { key: 'Controllers', value: '24 Tube, Advanced Tech' },
+      { key: 'Differential', value: '35 Inches' },
+      { key: 'Tyre', value: '3.75 - 12' },
+      { key: 'Load Capacity', value: '4 + 1 Person' },
+      { key: 'Rim', value: 'Steel / Alloy' },
+      { key: 'Brake', value: 'Bearing Bush Loaded Mechanical' },
+      {
+        key: 'Battery',
+        value: 'Lithium-ion Ferrous Sulphate (3 Year Warranty)',
+      },
+      { key: 'Brand', value: 'UTL' },
+      { key: 'Charger', value: '20 Amp (3 Year Warranty)' },
+      { key: 'Roof', value: 'Anti-heating Roof Cloth' },
+      {
+        key: 'Seat',
+        value: 'PU Cushions (39 Inches Body – Bigger Seating Area)',
+      },
+      {
+        key: 'Paint',
+        value:
+          'PU Primer, PU Paints, PU Clear, 4 Layers Metallic Paint for Durability',
+      },
+    ],
   },
   {
-    url: 'assets/e-riksha-2.jpg',
-    alt: 'E-Riksha 2',
-    legend: 'E-Riksha 2',
+    name: 'Bamur B-7 E-Rickshaw: Lemon Green',
+    images: [
+      {
+        url: 'assets/e-riksha-lemon-1.png',
+        alt: 'E-Riksha 4',
+      },
+      {
+        url: 'assets/e-riksha-lemon-2.png',
+        alt: 'E-Riksha 5',
+      },
+      {
+        url: 'assets/e-riksha-lemon-3.png',
+        alt: 'E-Riksha 6',
+      },
+      {
+        url: 'assets/e-riksha-lemon-4.png',
+        alt: 'E-Riksha 7',
+      },
+    ],
+    specs: [
+      { key: 'Motor', value: '1000W, 1200W, 1500W BLDC' },
+      { key: 'Controllers', value: '24 Tube, Advanced Tech' },
+      { key: 'Differential', value: '35 Inches' },
+      { key: 'Tyre', value: '3.75 - 12' },
+      { key: 'Load Capacity', value: '4 + 1 Person' },
+      { key: 'Rim', value: 'Steel / Alloy' },
+      { key: 'Brake', value: 'Bearing Bush Loaded Mechanical' },
+      {
+        key: 'Battery',
+        value: 'Lithium-ion Ferrous Sulphate (3 Year Warranty)',
+      },
+      { key: 'Brand', value: 'UTL' },
+      { key: 'Charger', value: '20 Amp (3 Year Warranty)' },
+      { key: 'Roof', value: 'Anti-heating Roof Cloth' },
+      {
+        key: 'Seat',
+        value: 'PU Cushions (39 Inches Body – Bigger Seating Area)',
+      },
+      {
+        key: 'Paint',
+        value:
+          'PU Primer, PU Paints, PU Clear, 4 Layers Metallic Paint for Durability',
+      },
+    ],
   },
   {
-    url: 'assets/e-riksha-3.jpg',
-    alt: 'E-Riksha 3',
-    legend: 'E-Riksha 3',
+    name: 'Bamur B-7 E-Rickshaw: Silver',
+    images: [
+      {
+        url: 'assets/e-riksha-silver-1.png',
+        alt: 'E-Riksha 7',
+      },
+      {
+        url: 'assets/e-riksha-silver-2.png',
+        alt: 'E-Riksha 8',
+      },
+      {
+        url: 'assets/e-riksha-silver-3.png',
+        alt: 'E-Riksha 9',
+      },
+    ],
+    specs: [
+      { key: 'Motor', value: '1000W, 1200W, 1500W BLDC' },
+      { key: 'Controllers', value: '24 Tube, Advanced Tech' },
+      { key: 'Differential', value: '35 Inches' },
+      { key: 'Tyre', value: '3.75 - 12' },
+      { key: 'Load Capacity', value: '4 + 1 Person' },
+      { key: 'Rim', value: 'Steel / Alloy' },
+      { key: 'Brake', value: 'Bearing Bush Loaded Mechanical' },
+      {
+        key: 'Battery',
+        value: 'Lithium-ion Ferrous Sulphate (3 Year Warranty)',
+      },
+      { key: 'Brand', value: 'UTL' },
+      { key: 'Charger', value: '20 Amp (3 Year Warranty)' },
+      { key: 'Roof', value: 'Anti-heating Roof Cloth' },
+      {
+        key: 'Seat',
+        value: 'PU Cushions (39 Inches Body – Bigger Seating Area)',
+      },
+      {
+        key: 'Paint',
+        value:
+          'PU Primer, PU Paints, PU Clear, 4 Layers Metallic Paint for Durability',
+      },
+    ],
   },
   {
-    url: 'assets/e-riksha-4.jpg',
-    alt: 'E-Riksha 4',
-    legend: 'E-Riksha 4',
-  },
-  {
-    url: 'assets/e-riksha-5.jpg',
-    alt: 'E-Riksha 5',
-    legend: 'E-Riksha 5',
-  },
-  {
-    url: 'assets/e-riksha-6.jpg',
-    alt: 'E-Riksha 6',
-    legend: 'E-Riksha 6',
-  },
-  {
-    url: 'assets/e-riksha-7.jpg',
-    alt: 'E-Riksha 7',
-    legend: 'E-Riksha 7',
-  },
-  {
-    url: 'assets/e-riksha-8.jpg',
-    alt: 'E-Riksha 8',
-    legend: 'E-Riksha 8',
-  },
-  {
-    url: 'assets/e-riksha-9.jpg',
-    alt: 'E-Riksha 9',
-    legend: 'E-Riksha 9',
-  },
-  {
-    url: 'assets/e-riksha-10.jpg',
-    alt: 'E-Riksha 10',
-    legend: 'E-Riksha 10',
-  },
-  {
-    url: 'assets/e-riksha-11.jpg',
-    alt: 'E-Riksha 11',
-    legend: 'E-Riksha 11',
-  },
-  {
-    url: 'assets/e-riksha-12.jpg',
-    alt: 'E-Riksha 12',
-    legend: 'E-Riksha 12',
-  },
-  {
-    url: 'assets/e-riksha-13.jpg',
-    alt: 'E-Riksha 13',
-    legend: 'E-Riksha 13',
-  },
-  {
-    url: 'assets/e-riksha-14.jpg',
-    alt: 'E-Riksha 14',
-    legend: 'E-Riksha 14',
-  },
-  {
-    url: 'assets/e-riksha-15.jpg',
-    alt: 'E-Riksha 15',
-    legend: 'E-Riksha 15',
-  },
-  {
-    url: 'assets/e-riksha-16.jpg',
-    alt: 'E-Riksha 16',
-    legend: 'E-Riksha 16',
+    name: 'Bamur Auto E-Rickshaw: Mustard Yellow',
+    images: [
+      {
+        url: 'assets/e-auto-1.png',
+        alt: 'E-Riksha 10',
+      },
+      {
+        url: 'assets/e-auto-2.png',
+        alt: 'E-Riksha 11',
+      },
+      {
+        url: 'assets/e-auto-3.png',
+        alt: 'E-Riksha 12',
+      },
+    ],
+    specs: [
+      { key: 'Motor', value: '1000W, 1200W, 1500W BLDC' },
+      { key: 'Controllers', value: '24 Tube, Advanced Tech' },
+      { key: 'Differential', value: '35 Inches' },
+      { key: 'Tyre', value: '3.75 - 12' },
+      { key: 'Load Capacity', value: '4 + 1 Person' },
+      { key: 'Rim', value: 'Steel / Alloy' },
+      { key: 'Brake', value: 'Bearing Bush Loaded Mechanical' },
+      {
+        key: 'Battery',
+        value: 'Lithium-ion Ferrous Sulphate (3 Year Warranty)',
+      },
+      { key: 'Brand', value: 'UTL' },
+      { key: 'Charger', value: '20 Amp (3 Year Warranty)' },
+      { key: 'Roof', value: 'Anti-heating Roof Cloth' },
+      {
+        key: 'Seat',
+        value: 'PU Cushions (39 Inches Body – Bigger Seating Area)',
+      },
+      {
+        key: 'Paint',
+        value:
+          'PU Primer, PU Paints, PU Clear, 4 Layers Metallic Paint for Durability',
+      },
+    ],
   },
 ];

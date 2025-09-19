@@ -2,13 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(/assets/fonts/Montserrat-Regular.ttf);
+  font-display: swap;
+}
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url(/assets/fonts/Montserrat-SemiBold.otf);
+  font-display: swap;
+}
 body {
   overflow-x: auto;
   overflow-y: scroll;
   --scrollbar-width: 0px;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-family: Montserrat-Regular, Arial, Helvetica, sans-serif, Arial,
+    Helvetica, sans-serif;
   font-size: 16px;
+  background-color: #fbfbfb;
+  color: #292728;
 }
+
+.sub-heading-text {
+  font-size: 2rem;
+  font-family: Montserrat-SemiBold;
+  color: #1b468a;
+  font-weight: 400;
+}
+.text-orange {
+  color: #f3b11c;
+}
+
 body,
 html {
   height: 100%;
@@ -21,12 +46,62 @@ html {
 
 .loader {
   position: relative;
-  background: rgba(0, 0, 0, 0) linear-gradient(328deg, #fafafa 0%, #e0e0e0 100%) 0% 0% no-repeat;
+  background: rgba(0, 0, 0, 0) linear-gradient(328deg, #fafafa 0%, #e0e0e0 100%)
+    0% 0% no-repeat;
   overflow: hidden;
-  &img{
+  &img {
     min-height: 400px;
   }
-  *{
+  * {
     visibility: hidden;
+  }
+}
+
+.top-radius {
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+footer {
+  background-color: #1b468a;
+  color: #d2d3d4;
+
+  .copyright {
+    color: #929497;
+    font-size: 0.8rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #414042;
+  &:hover {
+    color: #f3b11c;
+  }
+}
+.enquiry {
+  border: 0.5px solid #f4b11c;
+  color: #f4b11c;
+  padding: 1rem;
+  border-radius: 31.75px;
+  &:hover {
+    background-color: #f4b11c;
+    color: #fff;
+  }
+}
+.explore {
+  border: 0.5px solid white;
+  padding: 0.5rem 2rem;
+  border-radius: 31.75px;
+  color: #8b1b4f;
+  font-weight: bold;
+}
+
+.landing-right {
+  padding: 4vh 40px 18px;
+  background-color: #f4b11c;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+  .sub-text {
+    color: #8b1b4f;
   }
 }
